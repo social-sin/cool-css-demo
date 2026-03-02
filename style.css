@@ -1,0 +1,31 @@
+/* Universal reset */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* Default body styles */
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;      /* Root font size */
+  color: #172c66;       /* Default text color */
+  background-color: #fef6e4;
+  margin: 20px;         /* Space between page edge and content */
+}
+
+/* Headings */
+h1, h2 {
+  color: green;          /* Overrides body color */
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 6rem;       /* 6 x 16px = 96px */
+  margin-bottom: 1rem;   /* Space below heading */
+}
+
+/* Paragraphs */
+p {
+  background-color: #fff3d9;
+  padding: 20px;         /* Space inside the box */
+  margin: 20px 0;        /* Space outside the box */
+  border: 2px solid #172c66;
+}
